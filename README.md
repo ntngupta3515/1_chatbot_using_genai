@@ -8,6 +8,7 @@ python
 - Install:
   - openai: `pip install openai`
   - anthropic: `pip install anthropic`
+  - panel: `pip install panel`
 - Get the API key from ChatGPT from [Open AI Website](https://platform.openai.com/settings/organization/api-keys). Make sure to copy the key as this is the only chance to get the key value.
 - Set the env variable `OPENAI_API_KEY` in your local setup to the API key generated.
 
