@@ -1,13 +1,12 @@
 import panel as pn
 
 class GUI:
-    def __init__(self, ai) -> None:
+    def __init__(self, contextBuilder) -> None:
         
         # Initialize Stuff
         pn.extension() # Initializes JS for the GUI
         self.panels = [] # Collect display panels
-        self.context = [] # Collects the context for the chatbot
-        self.ai = ai # Initializes the AI
+        self.contextBuilder = contextBuilder # Initializes the context builder
 
         # Initialize the input field
         self.inp = pn.widgets.TextInput(value="Hi", placeholder='Enter text here…', sizing_mode="stretch_width")
@@ -31,11 +30,18 @@ class GUI:
         pn.serve(dashboard)
 
     def collect_messages(self, _):
+
+        # Get the user input
         prompt = self.inp.value_input
+
+        # reset it
         self.inp.value = ''
-        self.context.append({'role':'user', 'content':f"{prompt}"})
-        response = self.ai.runMessages(self.context) 
-        self.context.append({'role':'assistant', 'content':f"{response}"})
+
+        # Add the context and get the latest response
+        self.contextBuilder.add(prompt)
+        response = self.contextBuilder.getLastResponse()
+
+        # Append it to display panels and return it
         self.panels.append(pn.Row('User:', pn.pane.Markdown(prompt, sizing_mode="stretch_width")))
         self.panels.append(pn.Row('Assistant:', pn.pane.Markdown(response, styles={'background-color': '#F6F6F6'}, sizing_mode="stretch_width")))    
         return pn.Column(*self.panels, sizing_mode="stretch_width")

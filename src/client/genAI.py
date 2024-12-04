@@ -16,7 +16,7 @@ class GenAI:
             case _:
                 raise Exception(f"Unsupported AI: {ai}")
 
-    def runPrompt(self, prompt):
+    def runPrompt(self, prompt, temperature=0):
         messages = [{
             "role": "user", 
             "content": prompt
@@ -24,14 +24,14 @@ class GenAI:
         response = self.client.create(
             model=self.ai.value,
             messages=messages,
-            temperature=0, # this is the degree of randomness of the model's output
+            temperature=temperature, # this is the degree of randomness of the model's output
         )
         return response.choices[0].message.content
 
-    def runMessages(self, messages):
+    def runMessages(self, messages, temperature=0):
         response = self.client.create(
             model=self.ai.value,
             messages=messages,
-            temperature=0, # this is the degree of randomness of the model's output
+            temperature=temperature, # this is the degree of randomness of the model's output
         )
         return response.choices[0].message.content
