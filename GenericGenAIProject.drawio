@@ -26,8 +26,14 @@
         <mxCell id="-5lLzuhtgs18jf8ZroVW-2" value="Prompt Generator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="220" width="70" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="-5lLzuhtgs18jf8ZroVW-3" value="Context Builder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="220" width="70" height="100" as="geometry" />
+        <mxCell id="-5lLzuhtgs18jf8ZroVW-3" value="Context Builder" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-5lLzuhtgs18jf8ZroVW-9" value="Business Context" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="260" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-5lLzuhtgs18jf8ZroVW-10" value="Business Context" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="270" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
