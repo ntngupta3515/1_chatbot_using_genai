@@ -144,14 +144,8 @@
             <mxPoint x="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xkvrShkvqqjQqG9QrzM1-12" value="Context Builder" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="xkvrShkvqqjQqG9QrzM1-12" value="prompt/context.py" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="420" y="200" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="xkvrShkvqqjQqG9QrzM1-13" value="Business Context" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="425" y="230" width="110" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="xkvrShkvqqjQqG9QrzM1-14" value="Historical Context" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="425" y="250" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xkvrShkvqqjQqG9QrzM1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="xkvrShkvqqjQqG9QrzM1-18" target="xkvrShkvqqjQqG9QrzM1-21">
           <mxGeometry relative="1" as="geometry" />
@@ -175,7 +169,7 @@
             <mxPoint x="12" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xkvrShkvqqjQqG9QrzM1-21" value="Response&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Parser&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="xkvrShkvqqjQqG9QrzM1-21" value="N/A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="440" y="380" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xkvrShkvqqjQqG9QrzM1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="xkvrShkvqqjQqG9QrzM1-24" target="xkvrShkvqqjQqG9QrzM1-6">
@@ -186,7 +180,7 @@
             <mxPoint x="20" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xkvrShkvqqjQqG9QrzM1-24" value="Output Generator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="xkvrShkvqqjQqG9QrzM1-24" value="N/A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="240" y="380" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xkvrShkvqqjQqG9QrzM1-25" value="ChatGPT&lt;div&gt;API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
