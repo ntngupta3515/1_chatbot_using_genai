@@ -1,11 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
   <diagram name="Page-1" id="oVn04cqjI4I9JJedJ097">
-    <mxGraphModel dx="787" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="820" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uJwLM321enoojBsdspnN-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="180" width="120" height="300" as="geometry" />
+        <mxCell id="uJwLM321enoojBsdspnN-16" value="&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;GenAI&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="660" y="140" width="120" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uJwLM321enoojBsdspnN-15" value="&lt;b&gt;Server Side&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Back End)&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="460" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uJwLM321enoojBsdspnN-14" value="&lt;b&gt;Client Side&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Front End)&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="120" height="340" as="geometry" />
         </mxCell>
         <mxCell id="-5lLzuhtgs18jf8ZroVW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="-5lLzuhtgs18jf8ZroVW-1" target="-5lLzuhtgs18jf8ZroVW-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -84,6 +90,12 @@
         </mxCell>
         <mxCell id="uJwLM321enoojBsdspnN-12" value="GenAI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="680" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uJwLM321enoojBsdspnN-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.998;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uJwLM321enoojBsdspnN-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="180" as="sourcePoint" />
+            <mxPoint x="780" y="175" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
